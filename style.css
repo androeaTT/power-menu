@@ -10,4 +10,29 @@ window {
 .button {
     min-width: 100px;
     min-height: 100px;
+    border-radius: 0;
+}
+.button:hover{
+    background: #ffffff1c;
+}
+.button:first-child{
+    border-radius: 10px 0 0 10px;
+}
+.button:last-child{
+    border-radius: 0 10px 10px 0;
+}
+
+.buttonIcon {
+    font-size: 40px;
+    font-weight: 100;
+}
+.buttonLabel {
+    font-weight: 400;
+}
+
+
+.buttonsBox{
+    padding: 5px;
+    border: #74747449 solid 1px;
+    border-radius: 10px;
 }
