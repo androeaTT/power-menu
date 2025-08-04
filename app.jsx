@@ -60,7 +60,7 @@ app.start({
           { Button( "Power off", "󰐥", ["/sbin/shutdown", "-h", "now"], false ) }
           { Button( "Restart", "", ["/sbin/shutdown", "-r", "now"], false ) }
           { Button( "Log-out", "󰈆", ["loginctl", "terminate-session", "self"], false ) }
-          { Button( "Cancel", "󰅖", ['notify-send', 'what are you doing here?'], true ) }
+          { Button( "Cancel", "󰅖", ['notify-send', '"what are you doing?"'], true ) }
         </box>
       </window>
     )
