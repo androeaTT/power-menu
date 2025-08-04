@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ags run ~/.local/share/power-menu/app.jsx
