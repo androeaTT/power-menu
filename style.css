@@ -1,0 +1,13 @@
+*{
+    background-color: transparent;
+}
+
+window {
+    border-radius: 10px;
+    background-color: #00000004;
+}
+
+.button {
+    min-width: 100px;
+    min-height: 100px;
+}

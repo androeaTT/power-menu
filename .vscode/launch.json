@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "ags run app.jsx",
+            "name": "Run",
+            "request": "launch",
+            "type": "node-terminal",
+            "env": {
+                "GTK_DEBUG": "interactive"
+            }
+        }
+    ]
+}
