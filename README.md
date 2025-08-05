@@ -10,6 +10,7 @@ Simple app for power-off, reboot and logout for hyprland
 ## Installation
 
  Install AGS using <a href="https://aylur.github.io/ags/guide/install.html">this guide</a>
+ 
  Clone repo and cd to folder:
 
 ```bash
